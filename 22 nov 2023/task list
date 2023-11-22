@@ -1,0 +1,22 @@
+all Today's Task
+Objective: Understand fundamental concepts of Python syntax.
+
+1. Variables:
+   - Define five different variables showcasing various data types (integers, strings, lists, tuples, dictionaries).
+   - Print each variable along with its data type.
+
+2. Data Types:
+   - Define and explain different data types available in Python (int, float, str, list, tuple, dict).
+   - Provide an example for each data type showcasing its usage.
+
+3. Conditional Statements:
+   - Implement an `if...else` statement to check whether a number is even or odd.
+   - Use the modulo operator `%` to perform this check.
+
+4. Loops:
+   - Create a `for` loop that iterates through a list of numbers (e.g., 1 to 10).
+   - Print each number in the loop.
+
+5. Functions:
+   - Define a function that takes two arguments and returns their sum.
+   - Demonstrate the function by calling it with different sets of arguments.
