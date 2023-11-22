@@ -1,6 +1,3 @@
-all Today's Task
-Objective: Understand fundamental concepts of Python syntax.
-
 1. Variables:
    - Define five different variables showcasing various data types (integers, strings, lists, tuples, dictionaries).
    - Print each variable along with its data type.

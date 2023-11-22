@@ -1,0 +1,20 @@
+1. Check if a given string is a palindrome or not.
+2. Concatenate two strings into a single string.
+3. Calculate the sum of elements in a list of integers.
+4. Reverse the order of elements in a list without using the reverse() method.
+5. Sort a list of strings in ascending order.
+6. Remove duplicates from a list while preserving the order of elements.
+7. Perform basic arithmetic operations (addition, subtraction, multiplication, division) using user input.
+8. Check if a given number is even or odd.
+9. Check whether a given year is a leap year or not.
+10. Use logical operators (AND, OR, NOT) to check conditions and return True or False.
+11. Find the maximum and minimum values in a list of numbers.
+12. Check if a string is a program (contains all letters of the alphabet).
+13. Split a string into words and count the frequency of each word.
+14. Find the intersection of two lists (common elements).
+15. Create a dictionary from two lists (keys and values).
+16. Check if all elements in a list are unique.
+17. Merge two sorted lists into a single sorted list.
+18. Rotate elements in a list by a specified number of positions.
+19. Determine the factorial of a given number.
+20. Find the second largest element in a list of numbers.
