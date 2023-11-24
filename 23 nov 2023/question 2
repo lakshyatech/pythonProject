@@ -1,0 +1,24 @@
+2. File I/O:
+File Handling in Python: Python provides functions like open(), read(), write(), and close() for handling files.
+
+Example (Reading from a Text File):
+
+with open("example.txt", "r") as file:
+    content = file.read()
+    print("File Content:", content)
+
+Handling Different File Formats:
+
+CSV:
+
+import csv
+with open("data.csv", "r") as csvfile:
+    csv_reader = csv.reader(csvfile)
+    for row in csv_reader:
+        print(row)
+JSON:
+
+import json
+with open("data.json", "r") as jsonfile:
+    data = json.load(jsonfile)
+    print("JSON Data:", data)
