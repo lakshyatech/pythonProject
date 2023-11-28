@@ -34,8 +34,8 @@
 # it insert the value end of a list
 # Append function take any data input number,string,decimael number list another object
 
-# mylist=['mahendra','pawan','Rahul']       # append method used
-# mylist.append("Rohit")
+# mylist=['lakshya','shreya','mohit']       # append method used
+# mylist.append("mohit")
 # print(mylist)
 #
 # number_list=[1,2,3,4]
@@ -46,8 +46,8 @@
                         # Count Method
 
 
-# list_count=['Mahendra','mahendra','MAHENDRA','pawna','Rhaul','b','B','BB','a','AA','A']
-# l=list_count.count('mahendra')
+# list_count=['agarwal','aggarwal','agrawal','aagarwal']
+# l=list_count.count('agarwal')
 # print(l)
 
 
@@ -66,7 +66,7 @@
 
 
 # abc=['mon','tus','wed',8,7,9]
-# abc.extend('mahendra')
+# abc.extend('jan')
 # print(abc)
 
 
