@@ -1,4 +1,5 @@
 #Q1.  Class Creation Create a Python class `Student` with attributes like `name`, `age`, and `grade`. Include a method to display student information.
+
 # class Student:
 #     StudnetName="lakshya"
 #     StudentAge=23
@@ -10,8 +11,7 @@
 # print("Student Information:")
 # Student.Display()
 
-# Q2. Object Instantiation Instantiate multiple `Student` objects and
-# showcase their attributes and methods.
+# Q2. Object Instantiation Instantiate multiple `Student` objects and showcase their attributes and methods.
 
 # class Student:
 #     Address="Jaipur"
@@ -31,8 +31,7 @@
 # b.Show()
 
 
-    # Q3. Implement a `Book` class that stores `title`, `author`, and `pages`
-     # attributes using the constructor method.
+# Q3. Implement a `Book` class that stores `title`, `author`, and `pages` attributes using the constructor method.
 
 
 class Book:
