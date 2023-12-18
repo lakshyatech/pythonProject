@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* background-color: bisque; */
+}
+
+nav {
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  padding: 0px 100px;
+  position: fixed;
+  background-color: bisque;
+}
+
+nav .logo p {
+  font-size: 25px;
+  font-weight: bold;
+  float: left;
+  color: red;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+nav ul {
+  float: right;
+}
+nav li {
+  display: inline;
+  position: relative;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+  color: black;
+  font-weight: bold;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+nav li a:hover {
+  color: gold;
+  /* transform: all 0.2s ease 0s; */
+  border: 2px solid black;
+  color: red;
+  transition: 1s;
+  border-radius: 40px;
+  margin: 30px;
+  padding: 3px;
+}
