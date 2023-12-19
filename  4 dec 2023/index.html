@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Bank Account</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Create Bank Account</h1>
+        <form method="post">
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <div class="form-group">
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="idProof">ID Proof (Aadhar Card):</label>
+                <input type="text" id="idProof" name="idProof" required>
+            </div>
+            <div class="form-group">
+                <label for="accountType">Account Type:</label>
+                <select id="accountType" name="accountType" required>
+                    <option value="CURRENT">Current Account</option>
+                    <option value="SAVING">Saving Account</option>
+                    <option value="STUDENT">Student Account</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="mailAddress">Mail Address:</label>
+                <input type="email" id="mailAddress" name="mailAddress" required>
+            </div>
+            <div class="form-group">
+                <label for="dateOfBirth">Date of Birth:</label>
+                <input type="date" id="dateOfBirth" name="dateOfBirth" required>
+            </div>
+            <div class="form-group">
+                <label for="residentialAddress">Residential Address:</label>
+                <textarea id="residentialAddress" name="residentialAddress" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="digitalPicture">Digital Picture:</label>
+                <input type="file" id="digitalPicture" name="digitalPicture" accept="image/*" required>
+            </div>
+            <div class="form-group">
+                <label for="currentCitizenship">Current Citizenship:</label>
+                <input type="text" id="currentCitizenship" name="currentCitizenship" required>
+            </div>
+            <div class="form-group">
+                <label for="initialDeposit">Initial Deposit:</label>
+                <input type="number" id="initialDeposit" name="initialDeposit" required>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" id="agreeTAndC" name="agreeTAndC" required>
+                    I agree to the Terms and Conditions
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create Account">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

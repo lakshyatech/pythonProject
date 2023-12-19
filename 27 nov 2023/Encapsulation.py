@@ -1,11 +1,3 @@
-# class mahendra:
-#     _name="mahendra"   #Protected variable
-#     __age=21    # Pravite variable
-#     def show(self):
-#         print(f"Your Name is {self._name} and Age {self.__age}")
-# obj=mahendra()
-# obj.show()
-# print("outsite of class:",obj._name)        # Protected variable ko class ke bar used kr sk the hai
 
 class BankAccount:
     def __init__(self,balance=0.0):

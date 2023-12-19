@@ -1,10 +1,3 @@
-# class Student:
-#     def __init__(self):
-#         self.name=input("Enter the name")
-#     def data(self):
-#         print("Sudent name",self.name)
-# obj=Student()
-# obj.data()
 
 class Vehicle:
     def __init__(self,Car_Name):

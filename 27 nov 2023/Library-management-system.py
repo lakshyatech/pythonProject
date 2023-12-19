@@ -38,10 +38,10 @@ if __name__ == '__main__':
             name=input("Enter the Student name:")
             Library_Books.lend_Book(book,name)
         elif choice == 3:
-            book=input("Ether the Book name: ")
+            book=input("Enter the Book name: ")
             Library_Books.Add_Book(book)
         elif choice ==4:
-            book=input("Eter the return book name")
+            book=input("Enter the return book name")
             Library_Books.Return_Book(book)
         else:
             print("Invalied")
