@@ -1,7 +1,7 @@
+# myapp/urls.py
 from django.urls import path
-
-from . import views
+from .views import form_page
 
 urlpatterns = [
-    path("", views.index, name="index"),
+    path('', form_page, name='form_page'),
 ]
