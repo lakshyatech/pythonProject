@@ -1,8 +1,13 @@
-{% extends 'base.html' %}
-
-{% block title %}Bank Account Creation{% endblock %}
-
-{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account Creation</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
     <div class="container-opening">
         <h1>Bank Account Creation</h1>
         <form method="post" enctype="multipart/form-data" id="accountForm">
@@ -71,4 +76,5 @@
             </div>
         </form>
     </div>
-{% endblock %}
+</body>
+</html>
