@@ -1,10 +1,10 @@
 from django.urls import path
-from .views import home, create_account, manage_accounts, edit_account, delete_account
+from .views import home, BankAccountListView, BankAccountCreateView, BankAccountUpdateView, BankAccountDeleteView
 
 urlpatterns = [
     path('', home, name='home'),
-    path('create_account/', create_account, name='create_account'),
-    path('manage_accounts/', manage_accounts, name='manage_accounts'),
-    path('edit_account/<int:account_id>/', edit_account, name='edit_account'),
-    path('delete_account/<int:account_id>/', delete_account, name='delete_account'),
+    path('manage_accounts/', BankAccountListView.as_view(), name='manage_accounts'),
+    path('create_account/', BankAccountCreateView.as_view(), name='create_account'),
+    path('edit_account/<int:pk>/', BankAccountUpdateView.as_view(), name='edit_account'),
+    path('delete_account/<int:pk>/', BankAccountDeleteView.as_view(), name='delete_account'),
 ]

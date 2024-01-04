@@ -11,7 +11,7 @@ class Service(models.Model):
 class BankAccount(models.Model):
     id = models.AutoField(primary_key=True)
     full_name = models.CharField(max_length=100)
-    phone_number = models.CharField(max_length=15)
+    phone_number = models.CharField(max_length=20)
     id_proof = models.CharField(max_length=20)
     account_type = models.CharField(max_length=10, choices=[('savings', 'Savings Account'), ('current', 'Current Account')])
     email_address = models.EmailField()
