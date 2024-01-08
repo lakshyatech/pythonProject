@@ -3,9 +3,14 @@
 {% block title %}Manage Bank Accounts{% endblock %}
 
 {% block content %}
-    <div>
-        <h1>Manage Bank Accounts</h1>
-
+     <!-- Content Wrapper. Contains page content -->
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1>Manage Bank Accounts</h1>
+          </div>
 {#        <!-- Filter Form -->#}
 {#        <form method="get">#}
 {#            {{ FilterForm.as_p }}#}
@@ -13,8 +18,11 @@
 {#                <button type="submit">Apply Filters</button>#}
 {#            </div>#}
 {#        </form>#}
+        </div>
+      </div>
+    </section>
         {% if bank_accounts %}
-            <table class="table table-striped table-hover">
+            <table class="table table-bordered table-hover">
                 <thead>
                     <tr>
                         <th>ID</th>
@@ -58,6 +66,4 @@
         {% else %}
             <p>No bank accounts found.</p>
         {% endif %}
-
-    </div>
 {% endblock %}

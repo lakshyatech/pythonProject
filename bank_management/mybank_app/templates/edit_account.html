@@ -3,14 +3,44 @@
 {% block title %}Edit Bank Account{% endblock %}
 
 {% block content %}
-    <div class="container-opening">
-        <h1>Edit Bank Account</h1>
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1>Edit Bank Account</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container-fluid">
+        <div class="row">
+          <!-- left column -->
+          <div class="col-md-6">
+            <!-- general form elements -->
+            <div class="card card-primary">
         <form method="post" enctype="multipart/form-data">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <div class="form-group">
+            <div class="card-body">
+                {% csrf_token %}
+                <div class="form-group">
+                {{ form.as_p }}
+                </div>
+            </div>
+            <div class="card-footer">
                 <button type="submit">Save Changes</button>
             </div>
         </form>
+            </div>
+          </div>
+        </div>
     </div>
+{#    <div class="container-opening">#}
+{#        <h1>Edit Bank Account</h1>#}
+{#        <form method="post" enctype="multipart/form-data">#}
+{#            {% csrf_token %}#}
+{#            {{ form.as_p }}#}
+{#            <div class="form-group">#}
+{#                <button type="submit">Save Changes</button>#}
+{#            </div>#}
+{#        </form>#}
+{#    </div>#}
 {% endblock %}
